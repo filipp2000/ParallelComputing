@@ -187,6 +187,7 @@ double best_nearby(double delta[MAXVARS], double point[MAXVARS], double prevbest
 				z[i] = point[i];
 		}
 	}
+	
 	for (i = 0; i < nvars; i++)
 		point[i] = z[i];
 
